@@ -1,0 +1,47 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: mbed TLS
+Source: https://tls.mbed.org/download-archive
+
+Files: *
+Copyright: 2006-2018, ARM Limited
+License: Apache-2.0 or GPL-2+
+Comment:
+ The "primary" license is Apache 2.0 and all the source code headers in
+ this package say that, however an identical (apart from the license file)
+ version of mbed TLS is also available under the GPL-2.
+ See https://tls.mbed.org/how-to-get
+
+Files: debian/*
+Copyright: 2015-2018, James Cowgill <jcowgill@debian.org>
+License: Apache-2.0 or GPL-2+
+
+License: Apache-2.0
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+ .
+ http://www.apache.org/licenses/LICENSE-2.0
+ .
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ .
+ On Debian systems, the complete text of the Apache version 2.0 license
+ can be found in "/usr/share/common-licenses/Apache-2.0".
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ On Debian systems, the complete text of the GNU General Public License
+ can be found in ‘/usr/share/common-licenses/GPL-2’ or in the dpkg source
+ as the file ‘COPYING’.

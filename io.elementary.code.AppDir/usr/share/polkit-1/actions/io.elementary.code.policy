@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE policyconfig PUBLIC "-//freedesktop//DTD PolicyKit Policy Configuration 1.0//EN" "http://www.freedesktop.org/standards/PolicyKit/1.0/policyconfig.dtd">
+<policyconfig>
+  <vendor>elementary</vendor>
+  <vendor_url>https://github.com/elementary/code</vendor_url>
+  <icon_name>io.elementary.code</icon_name>
+  <action id="org.freedesktop.policykit.pkexec.io.elementary.code">
+    <description>Run Code as Administrator</description>
+    <description xml:lang="zh_CN">以管理员身份运行</description>
+    <description xml:lang="uk">Запуск Коду з правами адміністратора</description>
+    <description xml:lang="sr">Покрени Код као администратор</description>
+    <description xml:lang="sk">Spustiť Kód ako správca</description>
+    <description xml:lang="ru">Запуск Кода от имени администратора</description>
+    <description xml:lang="pt_BR">Executar Code como Administrador</description>
+    <description xml:lang="pt">Executar o Code como Administrador</description>
+    <description xml:lang="pl">Uruchom Kod jako administrator</description>
+    <description xml:lang="mr">प्रशासक म्हणून कोड चालवा</description>
+    <description xml:lang="ja">“コード”を管理者として実行</description>
+    <description xml:lang="he">הפעלת קוד כהנהלה</description>
+    <description xml:lang="fr">Exécuter Code en tant qu'administrateur</description>
+    <description xml:lang="fi">Suorita koodimuokkain ylläpitäjän oikeuksin</description>
+    <description xml:lang="es">Ejecutar código como administrador</description>
+    <description xml:lang="en_GB">Run Code as Administrator</description>
+    <description xml:lang="de">Code als Administrator ausführen</description>
+    <description xml:lang="cs">Spustit kód jako správce</description>
+    <description xml:lang="ckb">کارپێکردنی کۆد وەکو ئەدمین</description>
+    <description xml:lang="ca">Executa el Codi com a administrador</description>
+    <message>Authentication is required to run Code as Administrator</message>
+    <message xml:lang="zh_CN">以管理员身份运行需要进行验证</message>
+    <message xml:lang="uk">Потрібна автентифікація для запуску Коду з правами адміністратора</message>
+    <message xml:lang="sr">Потребно је потврђивање идентитета за покретање Кода као администратор</message>
+    <message xml:lang="sk">Pre spustenie aplikácie Kód s oprávneniami administrátora je potrebné overenie</message>
+    <message xml:lang="ru">Для запуска Кода от имени администратора требуется аутентификация</message>
+    <message xml:lang="pt_BR">A autenticação é necessária para executar o Code como Administrador</message>
+    <message xml:lang="pt">É necessária autenticação para executar o Code como Administrador</message>
+    <message xml:lang="pl">Uwierzytelnienie jest wymagane by uruchomić Kod jako administrator</message>
+    <message xml:lang="mr">प्रशासक म्हणून कोड चालविण्यासाठी प्रमाणीकरण आवश्यक आहे</message>
+    <message xml:lang="ja">“コード”を管理者として実行するには認証が必要です</message>
+    <message xml:lang="he">נדרש אימות כדי להריץ את קוד עם הרשאות ניהול</message>
+    <message xml:lang="fr">Une authentification est requise pour exécuter Code en tant qu'administrateur</message>
+    <message xml:lang="fi">Koodimuokkaimen käynnistäminen ylläpitäjän oikeuksin vaatii tunnistautumisen</message>
+    <message xml:lang="es">Necesita autenticarse para ejecutar Code con permisos administrativos</message>
+    <message xml:lang="en_GB">Authentication is required to run Code as Administrator</message>
+    <message xml:lang="de">Um Code als Administrator auszuführen ist eine Authentifizierung erforderlich</message>
+    <message xml:lang="cs">Pro spouštění Code s oprávněními správce systému je zapotřebí ověření</message>
+    <message xml:lang="ckb">سەلماندنی ڕەسەنێتی پێویستە بۆ کارپێکردنی کۆد وەکو ئەدمین</message>
+    <message xml:lang="ca">Cal autenticació per executar el Codi com a administrador.</message>
+    <defaults>
+      <allow_any>auth_admin</allow_any>
+      <allow_inactive>auth_admin</allow_inactive>
+      <allow_active>auth_admin</allow_active>
+    </defaults>
+    <annotate key="org.freedesktop.policykit.exec.path">/usr/bin/io.elementary.code</annotate>
+    <annotate key="org.freedesktop.policykit.exec.allow_gui">true</annotate>
+  </action>
+</policyconfig>

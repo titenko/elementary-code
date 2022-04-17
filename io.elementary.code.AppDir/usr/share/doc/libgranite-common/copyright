@@ -1,0 +1,230 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: granite
+Source: https://github.com/elementary/granite
+
+Files: *
+Copyright: 2011-2017 Granite Developers
+           2016-2019 elementary LLC.
+License: LGPL-3+
+
+Files: demo/GraniteDemo.vala
+Copyright: 2011-2012 Lucas Baudin <xapantu@gmail.com>
+           2011-2012 Jaap Broekhuizen <jaapz.b@gmail.com>
+           2012 Victor Martinez <victor@elementaryos.org>
+           2012 Tom Beckmann <tom@elementaryos.org>
+           2013 Julien Spautz <spautz.julien@gmail.com>
+           2014 Niclas Lockner <niclaslockner@gmail.com>
+License: LGPL-3+
+
+Files: lib/Application.vala
+Copyright: 2011-2013 Maxwell Barvian <maxwell@elementaryos.org>
+License: LGPL-3+
+
+Files: lib/Drawing/Color.vala
+       lib/Services/Logger.vala
+       lib/Services/System.vala
+Copyright: 2011-2013 Robert Dyer
+License: LGPL-3+
+
+Files: lib/Drawing/Utilities.vala
+Copyright: 2011-2013 Maxwell Barvian <maxwell@elementaryos.org>
+           2011-2013 Robert Dyer
+License: LGPL-3+
+
+Files: lib/GtkPatch/AboutDialog.vala
+Copyright: 2011-2013 Adrien Plazas <kekun.plazas@laposte.net>
+License: LGPL-3+
+
+Files: lib/Services/SimpleCommand.vala
+Copyright: 2011-2013 Lucas Baudin <xapantu@gmail.com>
+License: LGPL-3+
+
+Files: lib/Services/ContractorProxy.vala
+Copyright: 2011-2013 Lucas Baudin <xapantu@gmail.com>
+           2011-2013 Akshay Shekher <voldyman666@gmail.com>
+           2011-2013 Victor Martinez <victoreduardm@gmail.com>
+License: LGPL-3+
+
+Files: lib/Services/IconFactory.vala
+Copyright: 2011-2013 ammonkey <am.monkeyd@gmail.com>
+           2011-2013 Mario Guerriero <mario@elementaryos.org>
+License: LGPL-3+
+
+Files: lib/Drawing/BufferSurface.vala
+       lib/Services/Paths.vala
+       lib/Services/Settings.vala
+Copyright: 2011-2013 Robert Dyer
+           2011-2013 Rico Tzschichholz <ricotz@ubuntu.com>
+License: LGPL-3+
+
+Files: lib/Widgets/AppMenu.vala
+       lib/Widgets/CollapsiblePaned.vala
+Copyright: 2011-2013 Mathijs Henquet <mathijs.henquet@gmail.com>
+License: LGPL-3+
+
+Files: lib/Widgets/AsyncImage.vala
+       lib/Widgets/AbstractSimpleSettingsPage.vala
+       lib/Widgets/MessageDialog.vala
+Copyright: 2017 elementary LLC.
+License: GPL-2+
+
+Files: lib/Widgets/SeekBar.vala
+       lib/Widgets/Toast.vala
+Copyright: 2016-2017 elementary LLC.
+License: GPL-3+
+
+Files: lib/Widgets/HeaderLabel.vala
+       lib/Widgets/SettingsSidebarRow.vala
+       lib/Widgets/AbstractSettingsPage.vala
+       lib/Widgets/SettingsSidebar.vala
+Copyright: 2017 elementary LLC.
+License: LGPL-2.1+
+
+Files: lib/Widgets/CellRendererBadge.vala
+Copyright: 2012-2013 Victor Eduardo <victoreduardm@gmail.com>
+License: LGPL-3+
+
+Files: lib/Widgets/CompositedWindow.vala
+       lib/Widgets/DatePicker.vala
+Copyright: 2011-2013 Maxwell Barvian <maxwell@elementaryos.org>
+License: LGPL-3+
+
+Files: lib/Widgets/DynamicNotebook.vala
+Copyright: 2011-2013 Tom Beckmann <tom@elementaryos.org>
+License: LGPL-3+
+
+Files: lib/Widgets/ModeButton.vala
+Copyright: 2008-2013 Christian Hergert <chris@dronelabs.com>
+           2008-2013 Giulio Collura <giulio.collura@gmail.com>
+           2008-2013 Victor Martinez <victor@elementaryos.org>
+           2008-2013 ammonkey <am.monkeyd@gmail.com>
+License: LGPL-3+
+
+Files: lib/Widgets/OverlayBar.vala
+Copyright: 2013 JuliÃ¡n Unrrein <junrrein@gmail.com>
+           2012 ammonkey <am.monkeyd@gmail.com>
+License: LGPL-3+
+
+Files: lib/Widgets/SourceList.vala
+Copyright: 2012-2014 Victor Martinez <victoreduardm@gmail.com>
+License: LGPL-3+
+
+Files: lib/Widgets/TimePicker.vala
+Copyright: 2011-2013 Maxwell Barvian <maxwell@elementaryos.org>
+           2011-2013 Corentin Noël <tintou@mailoo.org>
+License: LGPL-3+
+
+Files: lib/Widgets/Welcome.vala
+Copyright: 2011-2013 Maxwell Barvian <maxwell@elementaryos.org>
+           2012 Victor Martinez <victor@elementaryos.org>
+License: LGPL-3+
+
+Files: lib/Widgets/widgets-utils.c
+Copyright: 2001 CodeFactory AB
+           2001-2002 Anders Carlsson
+           2003-2004 Matthias Clasen <mclasen@redhat.com>
+License: LGPL-2+
+
+Files: po/*
+Copyright: 2011-2017 Rosetta Contributors and Canonical Ltd
+License: LGPL-3+
+
+Files: debian/*
+Copyright: 2011-2014 Rico Tzschichholz <ricotz@ubuntu.com>
+           2011-2012 Lucas Baudin <xapantu@gmail.com>
+           2012 Devid Antonio Filoni <d.filoni@ubuntu.com>
+           2012-2014 Sergey "Shnatsel" Davidoff <sergey@elementaryos.org>
+           2014 Corentin Noël <corentin@elementaryos.org>
+           2018 Yangfl <mmyangfl@gmail.com>
+           2015-2018 Cody Garver <cody@elementary.io>
+           2019 Boyuan Yang <byang@debian.org>
+License: GPL-3+
+
+Files: debian/watch
+Copyright: Bart Martens <bartm@debian.org>
+License: GPL-3+
+
+License: GPL-2+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <https://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
+
+License: GPL-3+
+ This program is free software: you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation, either version 3 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <https://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 3 can be found in "/usr/share/common-licenses/GPL-3".
+
+License: LGPL-2+
+ This package is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with this program. If not, see <https://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License can be found in "/usr/share/common-licenses/LGPL-2".
+
+License: LGPL-2.1+
+ This package is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with this program. If not, see <https://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License can be found in "/usr/share/common-licenses/LGPL-2.1".
+
+License: LGPL-3+
+ This package is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 3 of the License, or (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with this program. If not, see <https://www.gnu.org/licenses/>.
+ .
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License can be found in "/usr/share/common-licenses/LGPL-3".

@@ -1,0 +1,2 @@
+#!/bin/bash
+ARCH=x86_64 appimagetool -n io.elementary.code.AppDir

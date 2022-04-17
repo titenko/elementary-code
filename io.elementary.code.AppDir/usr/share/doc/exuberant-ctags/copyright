@@ -1,0 +1,109 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: ctags
+Upstream-Contact: Darren Hiebert <dhiebert@users.sourceforge.net>
+Source: http://ctags.sourceforge.net/
+
+Files: *
+Copyright: 1996-2009 Darren Hiebert
+License: GPL-2+
+
+Files: ant.c dosbatch.c flex.c matlab.c tex.c
+Copyright: 2008-2009 David Fishburn
+License: GPL-2+
+
+Files: argproc.c
+Copyright: 1989 Mark Pizzolato
+License: GPL-2+
+
+Files: basic.c
+Copyright: 2000-2006 Darren Hiebert, Elias Pschernig
+License: GPL-2+
+
+Files: e_mac.h mac.c
+Copyright: 2001 Maarten L. Hekkelman
+License: GPL-2+
+
+Files: e_riscos.h
+Copyright: 2002 Andrew Wingate
+License: GPL-2+
+
+Files: erlang.c
+Copyright: 2003 Brent Fulgham
+License: GPL-2+
+
+Files: gnu_regex/*
+Copyright: 1985-2009 Free Software Foundation, Inc.
+License: LGPL-2.1+
+
+Files: lua.c
+Copyright: 2000-2001 Max Ischenko
+License: GPL-2+
+
+Files: objc.c ocaml.c
+Copyright: 2009-2010 Vincent Berthoux
+License: GPL-2+
+
+Files: php.c
+Copyright: 2000 Jesus Castagnetto
+License: GPL-2+
+
+Files: qdos.c
+Copyright: 1999 Thierry Godefroy
+License: GPL-2+
+
+Files: ruby.c
+Copyright: 2000-2001 Thaddeus Covert
+           2002 Matthias Veit
+           2004 Elliott Hughes
+License: GPL-2+
+
+Files: slang.c
+Copyright: 2000-2001 Francesc Rocher
+License: GPL-2+
+
+Files: sml.c
+Copyright: 2002 Venkatesh Prasad Ranganath
+           2002 Darren Hiebert
+License: GPL-2+
+
+Files: vhdl.c
+Copyright: 2008 Nicolas Vincent
+License: GPL-2+
+
+Files: yacc.c
+Copyright: 2001-2002 Nick Hibma
+License: GPL-2+
+
+License: GPL-2+
+ This program is free software; you can redistribute it and/or modify it
+ under the terms of the GNU General Public License as published by the Free
+ Software Foundation; either version 2 of the License, or (at your option)
+ any later version.
+ .
+ This program is distributed in the hope that it will be useful, but WITHOUT
+ ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
+ FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for
+ more details.
+ .
+ You should have received a copy of the GNU General Public License along
+ with this program; if not, write to the Free Software Foundation, Inc., 51
+ Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA.
+ .
+ On Debian and Debian-based systems, a copy of the GNU General Public
+ License version 2 is available in /usr/share/common-licenses/GPL-2.
+
+License: LGPL-2.1+
+ The GNU C Library is free software; you can redistribute it and/or modify
+ it under the terms of the GNU Lesser General Public License as published by
+ the Free Software Foundation; either version 2.1 of the License, or (at
+ your option) any later version.
+ .
+ The GNU C Library is distributed in the hope that it will be useful, but
+ WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU Lesser General Public
+ License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with the GNU C Library; if not, write to the Free Software
+ Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA 02110-1301
+ USA.
