@@ -1,4 +1,5 @@
 deb http://archive.ubuntu.com/ubuntu/ focal main universe
 deb https://ppa.launchpadcontent.net/elementary-os/stable/ubuntu focal main
+deb https://ppa.launchpadcontent.net/elementary-os/os-patches/ubuntu focal main
 deb http://ppa.launchpad.net/djcj/libcurl-slim/ubuntu xenial main
 deb file:/home/user/GitHub/AppImage/io.elementary.code ./
